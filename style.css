@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  padding-left: 7%;
+  list-style: none;
+  border: 2px solid #f0ebf8;
+  margin-top: 0;
+  padding-top: 1%;
+  padding-bottom: 0.5%;
+  margin: 0;
+}
+nav,
+h1 {
+  color: #52a6b2;
+}
+
+nav > li {
+  padding-left: 5%;
+}
+
+nav > img {
+  width: 5%;
+  height: 5%;
+  margin-top: -0.4%;
+}
+
+.article {
+  display: flex;
+  padding-right: 7%;
+  background-color: #ecedea;
+}
+
+.article > div {
+  padding-left: 5%;
+  padding-top: 2%;
+}
+
+.article > div > p {
+  width: 80%;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+  padding-left: 7%;
+  padding-right: 0;
+}
